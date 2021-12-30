@@ -140,6 +140,10 @@ header {
 
 nav .list .dropdown li {
     padding-bottom: 10px;
+    width: 100%;
+}
+nav .list .dropdown li:hover {
+    background-color: #fdae5c;
 }
 
 .section1 .header-content {
