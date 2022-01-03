@@ -8,21 +8,31 @@
     width: 85%;
     height: 100%;
     margin: auto;
-    /* background-color: aqua;   */
 }
+
 
 .row {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: rgb(214, 149, 149);   */
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Poppins",sans-serif;
+    color: #2e004b;
 }
 
+/* Start of nav with section1  */
+
+
 nav {
-    /* background-color: blueviolet; */
     height: 100px;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px white;    
+    z-index: 99999;
+    width: 100%;   
 }
 
 nav .logo {
@@ -31,7 +41,6 @@ nav .logo {
 
 nav .list {
     width: 50%;
-    /* background-color: blue; */
 }
 
 nav .list ul {
@@ -64,7 +73,6 @@ nav .list li:hover .fa-angle-down {
 
 nav .content {
     width: 25%;
-    /* background-color: red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,7 +101,6 @@ nav .list .dropdown {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 37px;
-    /* box-shadow: -10px 0 5px #FFF1BD   ; */
     background-color: #fff;
     visibility: hidden;
     opacity: 0;
@@ -145,7 +152,9 @@ nav .list .dropdown li {
 nav .list .dropdown li:hover {
     background-color: #fdae5c;
 }
-
+.section1 .container{
+    width: 70%;
+}
 .section1 .header-content {
     width: 40%;
     margin: auto;
@@ -182,4 +191,99 @@ nav .list .dropdown li:hover {
 .section1 .header-content .header-btn:hover a {
     color: #04d2c8;
 }
+
+/* End of nav with section1  */
+
+
+/* Start with section2 */
+.section2{
+    height: 80vh;
+}
+.section2 .container{
+    width: 70%;
+}
+.section2 .div1{
+    width: 50%;
+}
+.section2 .div1 .content{
+    width: 80%;
+    margin: auto;
+}
+
+.section2 .div2{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+
+.section2 .div1 h2 {
+    font-size: 48px;
+}
+.section2 .div1 p{
+    color: #727272;
+    margin-top: 15px;
+    word-spacing: 5px;
+    line-height: 1.5;
+
+}
+
+.section2 .div1 .button {
+    margin-top: 50px;
+    width: 250px;
+    background-color: #04d2c8;
+    padding: 20px 30px;
+    border-radius: 40px;
+    display: flex;
+    transition: .5s;
+}
+.section2 .div1 .button a {
+    margin: auto;
+    color: white;
+}
+.section2 .div1 .button:hover {
+    background-color: transparent;
+    border: solid 1px #04d2c8;
+}
+.section2 .div1 .button:hover a{
+    color: #04d2c8;
+}
+
+.section2 .div2 .circ1 ,.section2 .div2 .circ2 ,.section2 .div2 .circ3{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+.section2 .div2 .circ1{
+    background: rgba(93	,178	,255, 0.7);
+    top: 30%;
+    left: 40%;
+
+}
+.section2 .div2 .circ2{
+    background: rgba(253	,142,	94 , .7);
+    top: 35%;
+    left: 5%;
+    width: 300px;
+    height: 300px;
+}
+.section2 .div2 .circ3{
+    background: rgba(	4,	210	,200, .7);
+    top: 55%;
+    left: 20%; 
+}
+.section2 .div2 .circ1 p,.section2 .div2 .circ2 p,.section2 .div2 .circ3 p ,.section2 .div2 .circ1 h3,.section2 .div2 .circ2 h3,.section2 .div2 .circ3 h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* End of section2 */
+
 
